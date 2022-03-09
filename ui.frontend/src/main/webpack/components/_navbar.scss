@@ -1,4 +1,11 @@
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("fonts/Gilroy-SemiBold.ttf") format("truetype");
+}
+
+
 .container {
+  font-family: "Gilroy-SemiBold";
   width: 100%;
   position: relative;
   /* margin-left: auto; */

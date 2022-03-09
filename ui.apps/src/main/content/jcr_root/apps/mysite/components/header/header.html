@@ -1,20 +1,8 @@
-<div class="bg-img">
-  <picture class="picture is-supported" data-component="picture">
-    <source
-      data-srcset="/content/dam/general-purpose/Homepage_Banner_Image_Red.jpg"
-      media="(min-width:1280px)"
-      srcset="https://www.visitsaudi.com/content/dam/general-purpose/Homepage_Banner_Image_Red.jpg"
-    />
+<!--/* <sly data-sly-resource="${'image' @ resourceType='/core/wcm/components/image/v2/image'}" /> */-->
 
-    <img
-      data-src="/content/dam/general-purpose/Homepage_Banner_Image_Red_Mobile.jpg"
-      class="image lazyloaded"
-      src="https://www.visitsaudi.com/content/dam/general-purpose/Homepage_Banner_Image_Red_Mobile.jpg"
-    />
-  </picture>
-</div>
+<sly data-sly-resource="${'headertitle' @ resourceType='mysite/components/headertitle'}"></sly>
 
 <div class="main-nav">
-  <div data-sly-resource="${'topnavbar' @ resourceType='mysite/components/topnavbar'}"></div>
-  <div data-sly-resource="${'navbar' @ resourceType='mysite/components/navbar'}"></div>
+  <sly data-sly-resource="${'topnavbar' @ resourceType='mysite/components/topnavbar'}"></sly>
+  <sly data-sly-resource="${'navbar' @ resourceType='mysite/components/navbar'}"></sly>
 </div>

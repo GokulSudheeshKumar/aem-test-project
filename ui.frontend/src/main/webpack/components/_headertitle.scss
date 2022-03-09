@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Displace Regular";
+    src: url("fonts/Displace20-Regular.ttf") format("truetype");
+}
+
+.content-wrapper {
+  font-family: "Displace Regular";
+  z-index: 0;
+  position: absolute;
+  top: 30%;
+  left: 2%;
+  color: #fff;
+}
+
+.content-wrapper > button {
+  border-radius: 3.2rem;
+  padding: 1rem 2.4rem;
+  border: none;
+}

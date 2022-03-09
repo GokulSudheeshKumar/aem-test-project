@@ -368,12 +368,12 @@
             <components jcr:primaryType="nt:unstructured">
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <policy_2385281455600
-                        jcr:lastModified="{Date}2022-03-09T10:39:17.058+04:00"
+                        jcr:lastModified="{Date}2022-03-09T15:14:39.512+04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="testTemplate-policy"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:General,group:My Site - Content]">
+                        components="[group:General,group:Columns,group:My Site - Content]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_2385281455600>
                 </responsivegrid>
