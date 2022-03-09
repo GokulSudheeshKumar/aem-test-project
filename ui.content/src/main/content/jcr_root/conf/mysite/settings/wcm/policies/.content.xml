@@ -34,9 +34,9 @@
                     jcr:title="Content Image"
                     sling:resourceType="wcm/core/components/policy/policy"
                     allowedRenditionWidths="[320,480,600,800,1024,1200,1600]"
-                    disableLazyLoading="false"
                     allowUpload="false"
                     altValueFromDAM="true"
+                    disableLazyLoading="false"
                     displayPopupTitle="true"
                     isDecorative="false"
                     jpegQuality="{Long}85"
@@ -341,4 +341,43 @@
             </page>
         </components>
     </mysite>
+    <core jcr:primaryType="nt:unstructured">
+        <wcm jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <page jcr:primaryType="nt:unstructured">
+                    <v2 jcr:primaryType="nt:unstructured">
+                        <page jcr:primaryType="nt:unstructured">
+                            <policy_1646803845577
+                                jcr:lastModified="{Date}2022-03-09T09:32:01.006+04:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="testTemplate-policy"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                clientlibs="[mysite.dependencies,mysite.site]"
+                                clientlibsJsHead="mysite.dependencies">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                            </policy_1646803845577>
+                        </page>
+                    </v2>
+                </page>
+            </components>
+        </wcm>
+    </core>
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_2385281455600
+                        jcr:lastModified="{Date}2022-03-09T10:39:17.058+04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="testTemplate-policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:General,group:My Site - Content]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_2385281455600>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
 </jcr:root>

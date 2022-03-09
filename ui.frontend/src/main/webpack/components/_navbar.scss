@@ -9,7 +9,7 @@
 
 .navbar,
 .navbar > .container {
-  background: #000;
+  background: transparent;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -131,7 +131,7 @@
   padding: 0.5rem 1rem;
 }
 .navbar .navbar-menu .navbar-nav > li > a:hover {
-  color: #66f;
+  color: rgba(255, 255, 255, 0.6);
 }
 @media (max-width: 768px) {
   .navbar .navbar-menu .navbar-nav > li > a {
@@ -139,7 +139,7 @@
   }
 }
 .navbar .navbar-menu .navbar-nav > li.active a {
-  color: #66f;
+  color: rgba(255, 255, 255, 0.6);
 }
 .navbar .navbar-menu .navbar-nav .navbar-dropdown .dropdown {
   list-style: none;
