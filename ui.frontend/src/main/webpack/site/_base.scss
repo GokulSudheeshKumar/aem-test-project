@@ -1,5 +1,15 @@
 //== Base
 
+@font-face {
+    font-family: "Gilroy-SemiBold";
+    src: url("/apps/mysite/clientlibs/clientlib-site/resources/fonts/Gilroy-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Displace Regular";
+    src: url("/apps/mysite/clientlibs/clientlib-site/resources/fonts/Displace20-Regular.ttf") format("truetype");
+}
+
 html,
 body {
     margin: 0;
