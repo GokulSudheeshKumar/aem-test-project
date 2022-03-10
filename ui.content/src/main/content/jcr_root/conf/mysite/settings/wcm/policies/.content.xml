@@ -348,7 +348,7 @@
                     <v2 jcr:primaryType="nt:unstructured">
                         <page jcr:primaryType="nt:unstructured">
                             <policy_1646803845577
-                                jcr:lastModified="{Date}2022-03-10T08:52:34.940+04:00"
+                                jcr:lastModified="{Date}2022-03-10T11:49:51.482+04:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="testTemplate-policy"
@@ -381,4 +381,9 @@
             </components>
         </foundation>
     </wcm>
+    <foundation jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <image jcr:primaryType="nt:unstructured"/>
+        </components>
+    </foundation>
 </jcr:root>

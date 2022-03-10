@@ -2,7 +2,7 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2022-03-10T09:14:51.210+04:00"
+        cq:lastModified="{Date}2022-03-10T11:49:51.488+04:00"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/mysite/settings/wcm/template-types/remote-page"
         jcr:description="This is a test template"
