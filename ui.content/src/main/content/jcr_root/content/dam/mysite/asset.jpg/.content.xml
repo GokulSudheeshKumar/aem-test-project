@@ -8,7 +8,7 @@
         cq:name="asset.jpg"
         cq:parentPath="/content/dam/mysite"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2022-03-09T09:27:41.547+04:00"
+        jcr:lastModified="{Date}2022-03-10T08:48:25.953+04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -37,7 +37,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}940"
             exif:PixelYDimension="{Long}51"
-            jcr:lastModified="{Date}2022-03-09T09:27:40.984+04:00"
+            jcr:lastModified="{Date}2022-03-10T08:48:22.021+04:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

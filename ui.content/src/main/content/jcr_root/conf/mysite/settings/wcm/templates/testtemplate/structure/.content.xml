@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2022-03-09T15:32:58.216+04:00"
+        cq:lastModified="{Date}2022-03-10T09:14:51.210+04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/mysite/settings/wcm/templates/testtemplate"
         jcr:primaryType="cq:PageContent"
@@ -20,11 +20,15 @@
                     <default
                         jcr:primaryType="nt:unstructured"
                         offset="0"
-                        width="5"/>
+                        width="12"/>
                     <tablet
                         jcr:primaryType="nt:unstructured"
                         offset="0"
                         width="7"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
                 </cq:responsive>
             </responsivegrid>
         </root>
